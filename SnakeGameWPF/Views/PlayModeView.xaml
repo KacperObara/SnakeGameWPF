@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="SnakeGameWPF.Views.PlayModeView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="550">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush x:Name="BackgroundImage" Opacity="0.3"/>
+        </Grid.Background>
+
+        <Canvas x:Name="AppleCanvas" HorizontalAlignment="Left" VerticalAlignment="Top"  Height="420" Width="800">
+            <Canvas x:Name="SnakeCanvas" HorizontalAlignment="Left" VerticalAlignment="Top"  Height="420" Width="800"/>
+        </Canvas>
+    </Grid>
+</UserControl>
